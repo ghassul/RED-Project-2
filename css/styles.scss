@@ -1,5 +1,314 @@
 @import "reset";
 @import "variables";
 @import "fonts";
+@import "mixins";
+@import "widgets";
 @import "global";
 
+
+header {
+  text-align: center;
+  color: white;
+
+  .header_bg {
+    background:
+            linear-gradient(
+                            rgba(0, 0, 0, 0.10),
+                            rgba(0, 0, 0, 0.10)
+            ),
+            url('../assets/images/rustic-masthead.jpg') no-repeat center center;
+    margin: 0 auto;
+    background-size: cover;
+
+    nav {
+      padding-top: 10px;
+
+      @include tablet {
+        text-align: right;
+        padding-top: 2%;
+      }
+
+      ul {
+
+        li {
+          display: inline;
+          padding: 0 1.479%;
+          font-family: 'open_sans', sans-serif;
+          font-weight: bold;
+          text-transform: uppercase;
+          text-shadow: 1px 4px 3px black;
+
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+    }
+
+    img {
+      width: 35%;
+      padding-top: 5.5%;
+
+      @include tablet {
+        width: 43%;
+      }
+    }
+
+    .slogan {
+      padding-top: 2%;
+      padding-bottom: 6%;
+
+      @include tablet {
+        padding-bottom: 4%
+      }
+
+      p {
+        padding: .4% 0;
+        text-shadow: 1px 4px 3px black;
+      }
+    }
+
+    .menu_button {
+      margin: .5% auto;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: 'open_sans', sans-serif;
+      font-weight: bold;
+      font-size: .9rem;
+      padding: 1% 1.5%;
+      color: white;
+      background-color: orange;
+      box-shadow: 0 4px 6px black;
+    }
+
+    .its_today {
+      background-color: rgba(72,49,24,.8);
+      padding: 1%;
+      margin-top: 7%;
+
+      .today {
+        font-size: .8rem;
+        margin: .5%;
+      }
+
+      .open_closed {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        font-family: 'open_sans', sans-serif;
+        font-weight: bold;
+        margin: .5%;
+      }
+    }
+  }
+}
+
+.local_flavors {
+  text-align: center;
+  margin: 4% auto;
+
+  h2 {
+    margin: 8% 0;
+
+    @include tablet {
+      margin: 4% 0;
+    }
+  }
+
+  p {
+    padding: 1%;
+    line-height: 22px;
+  }
+}
+
+.food_drink {
+  text-align: center;
+  padding: 6% 0 5% 0;
+
+  @include tablet {
+    width: 100%;
+  }
+
+  div {
+    margin-top: 8%;
+
+    @include tablet {
+      float: left;
+      width: 33%;
+      margin-top: 1%;
+      padding-bottom: 4%;
+    }
+
+    h3 {
+      margin: 4%;
+
+      @include tablet {
+        margin: 9%;
+      }
+    }
+
+    p {
+      margin: 2%;
+
+      @include tablet {
+        margin: 4% 0;
+      }
+    }
+  }
+}
+
+.booking {
+  text-align: center;
+  color: white;
+  background: url('../assets/images/tables.jpg') no-repeat center center;
+  background-size: cover;
+
+  @include tablet {
+    clear: both;
+    padding: 1%
+  }
+
+  .grey_background {
+    background-color: rgba(0, 0, 0, 0.45);
+
+    @include tablet {
+      margin: 4%;
+    }
+
+    h2 {
+      padding-top: 6%;
+    }
+
+    p {
+      line-height: 22px;
+      padding: 5% 0;
+
+      @include tablet {
+        padding: 5% 0 2% 0;
+      }
+    }
+
+    form {
+      padding: 3%;
+
+      @include tablet {
+        padding: 0 0 6% 0;
+        width: 100%;
+      }
+
+      div {
+
+        @include tablet {
+          display: inline-block;
+          width: 30%;
+          margin: 2% 0;
+        }
+
+        label {
+          text-transform: uppercase;
+          display: block;
+          font-family: 'open_sans', sans-serif;
+          font-weight: bold;
+          font-size: 1.1rem;
+          text-align: left;
+          padding: 2.5% 3%;
+          color: #e7e3c5;
+
+          @include tablet {
+            padding: 2.5% 7%;
+          }
+        }
+
+        input {
+          width: 90%;
+          padding: 1.2%;
+
+          @include tablet {
+            width: 85%;
+            padding: 4% 0;
+            border: 2px solid #f89603
+          }
+        }
+
+        button {
+          text-transform: uppercase;
+          font-family: 'open_sans', sans-serif;
+          font-weight: bold;
+          font-size: 0.9rem;
+          padding: 2.5% 6%;
+          color: white;
+          background-color: orange;
+          margin-top: 5%;
+          border: none;
+          box-shadow: 0 4px 6px black;
+
+          @include tablet {
+            padding: 1.5% 4%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.find_us {
+  text-align: center;
+  padding: 5%;
+
+  div {
+
+    @include tablet {
+      float: left;
+      width: 32%;
+      padding-top: 3%;
+    }
+
+    i {
+      color: #e7e3c5;
+      padding: 7%;
+    }
+  }
+}
+
+footer {
+  background-color: #483118;
+
+  .footer_cont {
+    margin: 0 auto;
+    width: 70%;
+
+    @include tablet {
+      width: 100%;
+    }
+
+    img {
+      max-width: 30%;
+      float: left;
+      padding: 4%;
+
+      @include tablet {
+        max-width: 15%;
+        padding-top: 5%;
+      }
+    }
+
+    div {
+      padding: 4%;
+      text-align: right;
+
+      p {
+        color: white;
+      }
+
+      i {
+        color: white;
+        padding: 1%;
+      }
+
+      .copyright {
+        font-size: 0.66rem;
+        padding-top: 2%;
+      }
+    }
+  }
+}

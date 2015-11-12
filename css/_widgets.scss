@@ -1,0 +1,94 @@
+/*========================================*/
+/*==============Date picker===============*/
+/*========================================*/
+
+.ui-widget-header {
+  border-color: #f89603;
+  background: #483118;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  background: #e7e3c5;
+  border-color: #483118
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover {
+  border: 1px solid #f89603;
+  color: #f89603
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+  background: #f3f3f3;
+  border: 1px solid #483118;
+  color: #f89603;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+  border: 1px solid #483118;
+  background: #f89603;
+  color: #f3f3f3;
+}
+
+.ui-widget-content {
+  background: #f3f3f3;
+  border: 1px solid #483118;
+}
+
+/*========================================*/
+/*==============Time picker===============*/
+/*========================================*/
+
+li.ui-timepicker-selected {
+  background: #f89603;
+}
+
+.ui-timepicker-list {
+  font-family: 'open_sans', sans-serif;
+}
+
+.ui-timepicker-list:hover {
+  background: #f89603;
+}
+
+/*========================================*/
+/*===============Bx Slider================*/
+/*========================================*/
+
+/* Remove bxslider default background/border */
+.bx-wrapper .bx-viewport
+{
+  box-shadow: none;
+  border: 0;
+  left: 0;
+  background: #fff;
+}
+
+/* bxslider image viewport width to 100%*/
+.bx-wrapper img {
+  width: 100vw;
+}
+
+
+.bx-wrapper img,
+.bx-wrapper li {
+
+  @include tablet {
+    width: 50vw !important;
+  }
+
+  @include desktop {
+    width: 33.33vw !important;
+    max-width: 427px;
+  }
+}
+
+.slidercontainer,
+.container {
+
+  @include desktop {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}

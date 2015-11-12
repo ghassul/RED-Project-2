@@ -286,7 +286,7 @@ header img {
 }
 
 /* Create gray background over bg image */
-.gray_background {
+.grey_background {
 	background-color: rgba(0, 0, 0, 0.45);
 }
 
@@ -529,7 +529,7 @@ header img {
 }
 
 /* Create lighter border around gray bg */
-.gray_background {
+.grey_background {
 	margin: 4%;
 }
 

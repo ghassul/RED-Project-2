@@ -47,52 +47,125 @@ table {
 
 @font-face {
   font-family: 'merriweather';
-  src: url("assets/fonts/merriweather-regular-webfont.eot");
-  src: url("assets/fonts/merriweather-regular-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/merriweather-regular-webfont.woff2") format("woff2"), url("assets/fonts/merriweather-regular-webfont.woff") format("woff"), url("assets/fonts/merriweather-regular-webfont.ttf") format("truetype"), url("assets/fonts/merriweather-regular-webfont.svg#merriweatherregular") format("svg");
+  src: url("../assets/fonts/merriweather-regular-webfont.eot");
+  src: url("../assets/fonts/merriweather-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/merriweather-regular-webfont.woff2") format("woff2"), url("../assets/fonts/merriweather-regular-webfont.woff") format("woff"), url("../assets/fonts/merriweather-regular-webfont.ttf") format("truetype"), url("../assets/fonts/merriweather-regular-webfont.svg#merriweatherregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'merriweather';
-  src: url("assets/fonts/merriweather-bold-webfont.eot");
-  src: url("assets/fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/merriweather-bold-webfont.woff2") format("woff2"), url("assets/fonts/merriweather-bold-webfont.woff") format("woff"), url("assets/fonts/merriweather-bold-webfont.ttf") format("truetype"), url("assets/fonts/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
+  src: url("../assets/fonts/merriweather-bold-webfont.eot");
+  src: url("../assets/fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/merriweather-bold-webfont.woff2") format("woff2"), url("../assets/fonts/merriweather-bold-webfont.woff") format("woff"), url("../assets/fonts/merriweather-bold-webfont.ttf") format("truetype"), url("../assets/fonts/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
   font-weight: bold;
   font-style: normal; }
 @font-face {
   font-family: 'merriweather';
-  src: url("assets/fonts/merriweather-bolditalic-webfont.eot");
-  src: url("assets/fonts/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/merriweather-bolditalic-webfont.woff2") format("woff2"), url("assets/fonts/merriweather-bolditalic-webfont.woff") format("woff"), url("assets/fonts/merriweather-bolditalic-webfont.ttf") format("truetype"), url("assets/fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
+  src: url("../assets/fonts/merriweather-bolditalic-webfont.eot");
+  src: url("../assets/fonts/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/merriweather-bolditalic-webfont.woff2") format("woff2"), url("../assets/fonts/merriweather-bolditalic-webfont.woff") format("woff"), url("../assets/fonts/merriweather-bolditalic-webfont.ttf") format("truetype"), url("../assets/fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
   font-weight: bold;
   font-style: italic; }
 @font-face {
   font-family: 'merriweather';
-  src: url("assets/fonts/merriweather-italic-webfont.eot");
-  src: url("assets/fonts/merriweather-italic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/merriweather-italic-webfont.woff2") format("woff2"), url("assets/fonts/merriweather-italic-webfont.woff") format("woff"), url("assets/fonts/merriweather-italic-webfont.ttf") format("truetype"), url("assets/fonts/merriweather-italic-webfont.svg#merriweatheritalic") format("svg");
+  src: url("../assets/fonts/merriweather-italic-webfont.eot");
+  src: url("../assets/fonts/merriweather-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/merriweather-italic-webfont.woff2") format("woff2"), url("../assets/fonts/merriweather-italic-webfont.woff") format("woff"), url("../assets/fonts/merriweather-italic-webfont.ttf") format("truetype"), url("../assets/fonts/merriweather-italic-webfont.svg#merriweatheritalic") format("svg");
   font-weight: normal;
   font-style: italic; }
 @font-face {
   font-family: 'open_sans';
-  src: url("assets/fonts/opensans-extrabolditalic-webfont.eot");
-  src: url("assets/fonts/opensans-extrabolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/opensans-extrabolditalic-webfont.woff2") format("woff2"), url("assets/fonts/opensans-extrabolditalic-webfont.woff") format("woff"), url("assets/fonts/opensans-extrabolditalic-webfont.ttf") format("truetype"), url("assets/fonts/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic") format("svg");
+  src: url("../assets/fonts/opensans-extrabolditalic-webfont.eot");
+  src: url("../assets/fonts/opensans-extrabolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/opensans-extrabolditalic-webfont.woff2") format("woff2"), url("../assets/fonts/opensans-extrabolditalic-webfont.woff") format("woff"), url("../assets/fonts/opensans-extrabolditalic-webfont.ttf") format("truetype"), url("../assets/fonts/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic") format("svg");
   font-weight: bold;
   font-style: italic; }
 @font-face {
   font-family: 'open_sans';
-  src: url("assets/fonts/opensans-italic-webfont.eot");
-  src: url("assets/fonts/opensans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/opensans-italic-webfont.woff2") format("woff2"), url("assets/fonts/opensans-italic-webfont.woff") format("woff"), url("assets/fonts/opensans-italic-webfont.ttf") format("truetype"), url("assets/fonts/opensans-italic-webfont.svg#open_sansitalic") format("svg");
+  src: url("../assets/fonts/opensans-italic-webfont.eot");
+  src: url("../assets/fonts/opensans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/opensans-italic-webfont.woff2") format("woff2"), url("../assets/fonts/opensans-italic-webfont.woff") format("woff"), url("../assets/fonts/opensans-italic-webfont.ttf") format("truetype"), url("../assets/fonts/opensans-italic-webfont.svg#open_sansitalic") format("svg");
   font-weight: normal;
   font-style: italic; }
 @font-face {
   font-family: 'open_sans';
-  src: url("assets/fonts/opensans-regular-webfont.eot");
-  src: url("assets/fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/opensans-regular-webfont.woff2") format("woff2"), url("assets/fonts/opensans-regular-webfont.woff") format("woff"), url("assets/fonts/opensans-regular-webfont.ttf") format("truetype"), url("assets/fonts/opensans-regular-webfont.svg#open_sansregular") format("svg");
+  src: url("../assets/fonts/opensans-regular-webfont.eot");
+  src: url("../assets/fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/opensans-regular-webfont.woff2") format("woff2"), url("../assets/fonts/opensans-regular-webfont.woff") format("woff"), url("../assets/fonts/opensans-regular-webfont.ttf") format("truetype"), url("../assets/fonts/opensans-regular-webfont.svg#open_sansregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'open_sans';
-  src: url("assets/fonts/opensans-extrabold-webfont.eot");
-  src: url("assets/fonts/opensans-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("assets/fonts/opensans-extrabold-webfont.woff2") format("woff2"), url("assets/fonts/opensans-extrabold-webfont.woff") format("woff"), url("assets/fonts/opensans-extrabold-webfont.ttf") format("truetype"), url("assets/fonts/opensans-extrabold-webfont.svg#open_sansextrabold") format("svg");
+  src: url("../assets/fonts/opensans-extrabold-webfont.eot");
+  src: url("../assets/fonts/opensans-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/opensans-extrabold-webfont.woff2") format("woff2"), url("../assets/fonts/opensans-extrabold-webfont.woff") format("woff"), url("../assets/fonts/opensans-extrabold-webfont.ttf") format("truetype"), url("../assets/fonts/opensans-extrabold-webfont.svg#open_sansextrabold") format("svg");
   font-weight: bold;
   font-style: normal; }
+/*========================================*/
+/*==============Date picker===============*/
+/*========================================*/
+.ui-widget-header {
+  border-color: #f89603;
+  background: #483118; }
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  background: #e7e3c5;
+  border-color: #483118; }
+
+.ui-state-hover, .ui-widget-content .ui-state-hover {
+  border: 1px solid #f89603;
+  color: #f89603; }
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+  background: #f3f3f3;
+  border: 1px solid #483118;
+  color: #f89603; }
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+  border: 1px solid #483118;
+  background: #f89603;
+  color: #f3f3f3; }
+
+.ui-widget-content {
+  background: #f3f3f3;
+  border: 1px solid #483118; }
+
+/*========================================*/
+/*==============Time picker===============*/
+/*========================================*/
+li.ui-timepicker-selected {
+  background: #f89603; }
+
+.ui-timepicker-list {
+  font-family: 'open_sans', sans-serif; }
+
+.ui-timepicker-list:hover {
+  background: #f89603; }
+
+/*========================================*/
+/*===============Bx Slider================*/
+/*========================================*/
+/* Remove bxslider default background/border */
+.bx-wrapper .bx-viewport {
+  box-shadow: none;
+  border: 0;
+  left: 0;
+  background: #fff; }
+
+/* bxslider image viewport width to 100%*/
+.bx-wrapper img {
+  width: 100vw; }
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .bx-wrapper img,
+  .bx-wrapper li {
+    width: 50vw !important; } }
+@media (min-width: 1280px) {
+  .bx-wrapper img,
+  .bx-wrapper li {
+    width: 33.33vw !important;
+    max-width: 427px; } }
+
+@media (min-width: 1280px) {
+  .slidercontainer,
+  .container {
+    max-width: 1280px;
+    margin: 0 auto; } }
+
 /* Make media scale properly */
 img, video {
   max-width: 100%;
@@ -113,6 +186,9 @@ h2 {
   font-weight: bold;
   font-size: 1.7rem;
   text-transform: uppercase; }
+  @media (min-width: 768px) and (max-width: 1279px) {
+    h2 h2 {
+      font-size: 2.4rem; } }
 
 h3 {
   font-family: "open_sans", sans-serif;
@@ -124,9 +200,219 @@ body {
   background-color: #f3f3f3;
   color: #292929; }
 
-/* Contain content to 320px for mobile */
 .container {
   width: 54.6875%;
   margin: 0 auto; }
+  @media (min-width: 768px) and (max-width: 1279px) {
+    .container {
+      width: 80%; } }
+
+header {
+  text-align: center;
+  color: white; }
+  header .header_bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/images/rustic-masthead.jpg") no-repeat center center;
+    margin: 0 auto;
+    background-size: cover; }
+    header .header_bg nav {
+      padding-top: 10px; }
+      @media (min-width: 768px) and (max-width: 1279px) {
+        header .header_bg nav {
+          text-align: right;
+          padding-top: 2%; } }
+      header .header_bg nav ul li {
+        display: inline;
+        padding: 0 1.479%;
+        font-family: 'open_sans', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 1px 4px 3px black; }
+        header .header_bg nav ul li a {
+          text-decoration: none;
+          color: white; }
+    header .header_bg img {
+      width: 35%;
+      padding-top: 5.5%; }
+      @media (min-width: 768px) and (max-width: 1279px) {
+        header .header_bg img {
+          width: 43%; } }
+    header .header_bg .slogan {
+      padding-top: 2%;
+      padding-bottom: 6%; }
+      @media (min-width: 768px) and (max-width: 1279px) {
+        header .header_bg .slogan {
+          padding-bottom: 4%; } }
+      header .header_bg .slogan p {
+        padding: .4% 0;
+        text-shadow: 1px 4px 3px black; }
+    header .header_bg .menu_button {
+      margin: .5% auto;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: 'open_sans', sans-serif;
+      font-weight: bold;
+      font-size: .9rem;
+      padding: 1% 1.5%;
+      color: white;
+      background-color: orange;
+      box-shadow: 0 4px 6px black; }
+    header .header_bg .its_today {
+      background-color: rgba(72, 49, 24, 0.8);
+      padding: 1%;
+      margin-top: 7%; }
+      header .header_bg .its_today .today {
+        font-size: .8rem;
+        margin: .5%; }
+      header .header_bg .its_today .open_closed {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        font-family: 'open_sans', sans-serif;
+        font-weight: bold;
+        margin: .5%; }
+
+.local_flavors {
+  text-align: center;
+  margin: 4% auto; }
+  .local_flavors h2 {
+    margin: 8% 0; }
+    @media (min-width: 768px) and (max-width: 1279px) {
+      .local_flavors h2 {
+        margin: 4% 0; } }
+  .local_flavors p {
+    padding: 1%;
+    line-height: 22px; }
+
+.food_drink {
+  text-align: center;
+  padding: 6% 0 5% 0; }
+  @media (min-width: 768px) and (max-width: 1279px) {
+    .food_drink {
+      width: 100%; } }
+  .food_drink div {
+    margin-top: 8%; }
+    @media (min-width: 768px) and (max-width: 1279px) {
+      .food_drink div {
+        float: left;
+        width: 33%;
+        margin-top: 1%;
+        padding-bottom: 4%; } }
+    .food_drink div h3 {
+      margin: 4%; }
+      @media (min-width: 768px) and (max-width: 1279px) {
+        .food_drink div h3 {
+          margin: 9%; } }
+    .food_drink div p {
+      margin: 2%; }
+      @media (min-width: 768px) and (max-width: 1279px) {
+        .food_drink div p {
+          margin: 4% 0; } }
+
+.booking {
+  text-align: center;
+  color: white;
+  background: url("../assets/images/tables.jpg") no-repeat center center;
+  background-size: cover; }
+  @media (min-width: 768px) and (max-width: 1279px) {
+    .booking {
+      clear: both;
+      padding: 1%; } }
+  .booking .grey_background {
+    background-color: rgba(0, 0, 0, 0.45); }
+    @media (min-width: 768px) and (max-width: 1279px) {
+      .booking .grey_background {
+        margin: 4%; } }
+    .booking .grey_background h2 {
+      padding-top: 6%; }
+    .booking .grey_background p {
+      line-height: 22px;
+      padding: 5% 0; }
+      @media (min-width: 768px) and (max-width: 1279px) {
+        .booking .grey_background p {
+          padding: 5% 0 2% 0; } }
+    .booking .grey_background form {
+      padding: 3%; }
+      @media (min-width: 768px) and (max-width: 1279px) {
+        .booking .grey_background form {
+          padding: 0 0 6% 0;
+          width: 100%; } }
+      @media (min-width: 768px) and (max-width: 1279px) {
+        .booking .grey_background form div {
+          display: inline-block;
+          width: 30%;
+          margin: 2% 0; } }
+      .booking .grey_background form div label {
+        text-transform: uppercase;
+        display: block;
+        font-family: 'open_sans', sans-serif;
+        font-weight: bold;
+        font-size: 1.1rem;
+        text-align: left;
+        padding: 2.5% 3%;
+        color: #e7e3c5; }
+        @media (min-width: 768px) and (max-width: 1279px) {
+          .booking .grey_background form div label {
+            padding: 2.5% 7%; } }
+      .booking .grey_background form div input {
+        width: 90%;
+        padding: 1.2%; }
+        @media (min-width: 768px) and (max-width: 1279px) {
+          .booking .grey_background form div input {
+            width: 85%;
+            padding: 4% 0;
+            border: 2px solid #f89603; } }
+      .booking .grey_background form div button {
+        text-transform: uppercase;
+        font-family: 'open_sans', sans-serif;
+        font-weight: bold;
+        font-size: 0.9rem;
+        padding: 2.5% 6%;
+        color: white;
+        background-color: orange;
+        margin-top: 5%;
+        border: none;
+        box-shadow: 0 4px 6px black; }
+        @media (min-width: 768px) and (max-width: 1279px) {
+          .booking .grey_background form div button {
+            padding: 1.5% 4%; } }
+
+.find_us {
+  text-align: center;
+  padding: 5%; }
+  @media (min-width: 768px) and (max-width: 1279px) {
+    .find_us div {
+      float: left;
+      width: 32%;
+      padding-top: 3%; } }
+  .find_us div i {
+    color: #e7e3c5;
+    padding: 7%; }
+
+footer {
+  background-color: #483118; }
+  footer .footer_cont {
+    margin: 0 auto;
+    width: 70%; }
+    @media (min-width: 768px) and (max-width: 1279px) {
+      footer .footer_cont {
+        width: 100%; } }
+    footer .footer_cont img {
+      max-width: 30%;
+      float: left;
+      padding: 4%; }
+      @media (min-width: 768px) and (max-width: 1279px) {
+        footer .footer_cont img {
+          max-width: 15%;
+          padding-top: 5%; } }
+    footer .footer_cont div {
+      padding: 4%;
+      text-align: right; }
+      footer .footer_cont div p {
+        color: white; }
+      footer .footer_cont div i {
+        color: white;
+        padding: 1%; }
+      footer .footer_cont div .copyright {
+        font-size: 0.66rem;
+        padding-top: 2%; }
 
 /*# sourceMappingURL=styles.css.map */
