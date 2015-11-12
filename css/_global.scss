@@ -1,0 +1,43 @@
+/* Make media scale properly */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Clearfix */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html {
+  font-size: 18px;
+}
+
+
+/* Set header font to open sans bold */
+h2 {
+  font-family: 'open_sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'open_sans', sans-serif	;
+  font-size: 1.7rem;
+}
+
+/* Set body font to merriweather */
+body {
+  font-family: 'merriweather', serif;
+  background-color: #f3f3f3;
+  color: #292929;
+}
+
+/* Contain content to 320px for mobile */
+.container {
+  width: 54.6875%;
+  margin: 0 auto;
+}
