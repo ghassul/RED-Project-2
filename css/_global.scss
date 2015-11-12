@@ -18,7 +18,7 @@ html {
 
 /* Set header font to open sans bold */
 h2 {
-  font-family: 'open_sans', sans-serif;
+  font-family: $font-stack;
   font-weight: bold;
   font-size: 1.7rem;
   text-transform: uppercase;
@@ -31,14 +31,14 @@ h2 {
 }
 
 h3 {
-  font-family: 'open_sans', sans-serif	;
+  font-family: $font-stack	;
   font-size: 1.7rem;
 }
 
 /* Set body font to merriweather */
 body {
-  font-family: 'merriweather', serif;
-  background-color: #f3f3f3;
+  font-family: $font-accent;
+  background-color: $brand_background;
   color: #292929;
 }
 
@@ -51,3 +51,12 @@ body {
   }
 }
 
+.custom_btn {
+  text-transform: uppercase;
+  font-family: $font-stack;
+  font-weight: bold;
+  font-size: .9rem;
+  color: white;
+  box-shadow: 0 4px 6px black;
+  background-color: $brand_orange;
+}

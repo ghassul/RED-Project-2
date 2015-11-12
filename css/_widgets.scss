@@ -3,37 +3,37 @@
 /*========================================*/
 
 .ui-widget-header {
-  border-color: #f89603;
-  background: #483118;
+  border-color: $brand_orange;
+  background: $brand_brown;
 }
 
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-  background: #e7e3c5;
-  border-color: #483118
+  background: $brand_tan;
+  border-color: $brand_brown
 }
 
 .ui-state-hover, .ui-widget-content .ui-state-hover {
-  border: 1px solid #f89603;
-  color: #f89603
+  border: 1px solid $brand_orange;
+  color: $brand_orange
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active {
-  background: #f3f3f3;
-  border: 1px solid #483118;
-  color: #f89603;
+  background: $brand_background;
+  border: 1px solid $brand_brown;
+  color: $brand_orange;
 }
 
 .ui-state-highlight, .ui-widget-content .ui-state-highlight {
-  border: 1px solid #483118;
-  background: #f89603;
-  color: #f3f3f3;
+  border: 1px solid $brand_brown;
+  background: $brand_orange;
+  color: $brand_background;
 }
 
 .ui-widget-content {
-  background: #f3f3f3;
-  border: 1px solid #483118;
+  background: $brand_background;
+  border: 1px solid $brand_brown;
 }
 
 /*========================================*/
@@ -41,7 +41,7 @@
 /*========================================*/
 
 li.ui-timepicker-selected {
-  background: #f89603;
+  background: $brand_orange;
 }
 
 .ui-timepicker-list {
@@ -49,7 +49,7 @@ li.ui-timepicker-selected {
 }
 
 .ui-timepicker-list:hover {
-  background: #f89603;
+  background: $brand_orange;
 }
 
 /*========================================*/
