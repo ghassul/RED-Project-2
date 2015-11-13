@@ -84,7 +84,11 @@ li.ui-timepicker-selected {
   }
 }
 
-.slidercontainer,
+.slider_container {
+  background-color: rgb(5, 23, 47);
+}
+
+.bx-viewport,
 .container {
 
   @include desktop {

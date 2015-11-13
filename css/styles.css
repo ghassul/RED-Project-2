@@ -160,8 +160,11 @@ li.ui-timepicker-selected {
     width: 33.33vw !important;
     max-width: 427px; } }
 
+.slider_container {
+  background-color: #05172f; }
+
 @media (min-width: 1280px) {
-  .slidercontainer,
+  .bx-viewport,
   .container {
     max-width: 1280px;
     margin: 0 auto; } }
@@ -220,8 +223,7 @@ header {
   text-align: center;
   color: white; }
   header .header_bg {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/images/rustic-masthead.jpg") no-repeat center center;
-    margin: 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/images/rustic-masthead.jpg") no-repeat top center;
     background-size: cover; }
     header .header_bg nav {
       padding-top: 10px; }
@@ -263,13 +265,12 @@ header {
       padding: 1%;
       margin-top: 7%; }
       header .header_bg .its_today .today {
-        font-size: .8rem;
-        margin: .5%; }
+        margin: .5%;
+        font-family: "open_sans", sans-serif; }
       header .header_bg .its_today .open_closed {
         text-transform: uppercase;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-family: "open_sans", sans-serif;
-        font-weight: bold;
         margin: .5%; }
 
 .local_flavors {
@@ -282,11 +283,13 @@ header {
         margin: 4% 0; } }
   .local_flavors p {
     padding: 1%;
-    line-height: 22px; }
+    line-height: 22px;
+    max-width: 75%;
+    margin: 0 auto; }
 
 .food_drink {
   text-align: center;
-  padding: 6% 0 5% 0; }
+  padding: 2.5rem 0 5% 0; }
   @media (min-width: 768px) {
     .food_drink {
       width: 100%; } }
@@ -376,38 +379,34 @@ header {
   @media (min-width: 768px) {
     .find_us div {
       float: left;
-      width: 32%;
-      padding-top: 3%; } }
+      width: 33%; } }
   .find_us div i {
     color: #e7e3c5;
-    padding: 7%; }
+    padding: 7%;
+    font-size: 2.5rem; }
 
 footer {
   background-color: #483118; }
   footer .footer_cont {
     margin: 0 auto;
     width: 70%; }
-    @media (min-width: 768px) {
-      footer .footer_cont {
-        width: 100%; } }
     footer .footer_cont img {
-      max-width: 30%;
+      max-width: 150px;
       float: left;
-      padding: 4%; }
+      padding-left: 4%; }
       @media (min-width: 768px) {
         footer .footer_cont img {
-          max-width: 15%;
-          padding-top: 5%; } }
+          padding-top: 3%; } }
     footer .footer_cont div {
-      padding: 4%;
-      text-align: right; }
+      text-align: right;
+      padding: 2%;
+      font-family: "open_sans", sans-serif; }
       footer .footer_cont div p {
         color: white; }
       footer .footer_cont div i {
         color: white;
-        padding: 1%; }
+        padding: .33rem; }
       footer .footer_cont div .copyright {
-        font-size: 0.66rem;
-        padding-top: 2%; }
+        padding-top: .5rem; }
 
 /*# sourceMappingURL=styles.css.map */
