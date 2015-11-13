@@ -150,7 +150,7 @@ li.ui-timepicker-selected {
 .bx-wrapper img {
   width: 100vw; }
 
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) {
   .bx-wrapper img,
   .bx-wrapper li {
     width: 50vw !important; } }
@@ -186,8 +186,8 @@ h2 {
   font-weight: bold;
   font-size: 1.7rem;
   text-transform: uppercase; }
-  @media (min-width: 768px) and (max-width: 1279px) {
-    h2 h2 {
+  @media (min-width: 768px) {
+    h2 {
       font-size: 2.4rem; } }
 
 h3 {
@@ -203,7 +203,7 @@ body {
 .container {
   width: 54.6875%;
   margin: 0 auto; }
-  @media (min-width: 768px) and (max-width: 1279px) {
+  @media (min-width: 768px) {
     .container {
       width: 80%; } }
 
@@ -225,7 +225,7 @@ header {
     background-size: cover; }
     header .header_bg nav {
       padding-top: 10px; }
-      @media (min-width: 768px) and (max-width: 1279px) {
+      @media (min-width: 768px) {
         header .header_bg nav {
           text-align: right;
           padding-top: 2%; } }
@@ -242,13 +242,13 @@ header {
     header .header_bg img {
       width: 35%;
       padding-top: 5.5%; }
-      @media (min-width: 768px) and (max-width: 1279px) {
+      @media (min-width: 768px) {
         header .header_bg img {
           width: 43%; } }
     header .header_bg .slogan {
       padding-top: 2%;
       padding-bottom: 6%; }
-      @media (min-width: 768px) and (max-width: 1279px) {
+      @media (min-width: 768px) {
         header .header_bg .slogan {
           padding-bottom: 4%; } }
       header .header_bg .slogan p {
@@ -277,7 +277,7 @@ header {
   margin: 4% auto; }
   .local_flavors h2 {
     margin: 8% 0; }
-    @media (min-width: 768px) and (max-width: 1279px) {
+    @media (min-width: 768px) {
       .local_flavors h2 {
         margin: 4% 0; } }
   .local_flavors p {
@@ -287,12 +287,12 @@ header {
 .food_drink {
   text-align: center;
   padding: 6% 0 5% 0; }
-  @media (min-width: 768px) and (max-width: 1279px) {
+  @media (min-width: 768px) {
     .food_drink {
       width: 100%; } }
   .food_drink div {
     margin-top: 8%; }
-    @media (min-width: 768px) and (max-width: 1279px) {
+    @media (min-width: 768px) {
       .food_drink div {
         float: left;
         width: 33%;
@@ -300,12 +300,12 @@ header {
         padding-bottom: 4%; } }
     .food_drink div h3 {
       margin: 4%; }
-      @media (min-width: 768px) and (max-width: 1279px) {
+      @media (min-width: 768px) {
         .food_drink div h3 {
           margin: 9%; } }
     .food_drink div p {
       margin: 2%; }
-      @media (min-width: 768px) and (max-width: 1279px) {
+      @media (min-width: 768px) {
         .food_drink div p {
           margin: 4% 0; } }
 
@@ -314,13 +314,13 @@ header {
   color: white;
   background: url("../assets/images/tables.jpg") no-repeat center center;
   background-size: cover; }
-  @media (min-width: 768px) and (max-width: 1279px) {
+  @media (min-width: 768px) {
     .booking {
       clear: both;
       padding: 1%; } }
   .booking .grey_background {
     background-color: rgba(0, 0, 0, 0.45); }
-    @media (min-width: 768px) and (max-width: 1279px) {
+    @media (min-width: 768px) {
       .booking .grey_background {
         margin: 4%; } }
     .booking .grey_background h2 {
@@ -328,16 +328,16 @@ header {
     .booking .grey_background p {
       line-height: 22px;
       padding: 5% 0; }
-      @media (min-width: 768px) and (max-width: 1279px) {
+      @media (min-width: 768px) {
         .booking .grey_background p {
           padding: 5% 0 2% 0; } }
     .booking .grey_background form {
       padding: 3%; }
-      @media (min-width: 768px) and (max-width: 1279px) {
+      @media (min-width: 768px) {
         .booking .grey_background form {
           padding: 0 0 6% 0;
           width: 100%; } }
-      @media (min-width: 768px) and (max-width: 1279px) {
+      @media (min-width: 768px) {
         .booking .grey_background form div {
           display: inline-block;
           width: 30%;
@@ -351,13 +351,13 @@ header {
         text-align: left;
         padding: 2.5% 3%;
         color: #e7e3c5; }
-        @media (min-width: 768px) and (max-width: 1279px) {
+        @media (min-width: 768px) {
           .booking .grey_background form div label {
             padding: 2.5% 7%; } }
       .booking .grey_background form div input {
         width: 90%;
         padding: 1.2%; }
-        @media (min-width: 768px) and (max-width: 1279px) {
+        @media (min-width: 768px) {
           .booking .grey_background form div input {
             width: 85%;
             padding: 4% 0;
@@ -366,14 +366,14 @@ header {
         padding: 2.5% 6%;
         margin-top: 5%;
         border: none; }
-        @media (min-width: 768px) and (max-width: 1279px) {
+        @media (min-width: 768px) {
           .booking .grey_background form .book_now {
             padding: 1.5% 4%; } }
 
 .find_us {
   text-align: center;
   padding: 5%; }
-  @media (min-width: 768px) and (max-width: 1279px) {
+  @media (min-width: 768px) {
     .find_us div {
       float: left;
       width: 32%;
@@ -387,14 +387,14 @@ footer {
   footer .footer_cont {
     margin: 0 auto;
     width: 70%; }
-    @media (min-width: 768px) and (max-width: 1279px) {
+    @media (min-width: 768px) {
       footer .footer_cont {
         width: 100%; } }
     footer .footer_cont img {
       max-width: 30%;
       float: left;
       padding: 4%; }
-      @media (min-width: 768px) and (max-width: 1279px) {
+      @media (min-width: 768px) {
         footer .footer_cont img {
           max-width: 15%;
           padding-top: 5%; } }
